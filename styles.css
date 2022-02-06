@@ -1,125 +1,134 @@
-header{
-  
-    background-color: rgb(94, 93, 93); 
-text-align: center;
-padding: 40px;
- }
+header {
 
- .slideshow-container {
+  background-color: rgb(94, 93, 93);
+  text-align: center;
+  padding: 40px;
+}
+
+.slideshow-container {
   max-width: 100%;
   position: relative;
   margin: auto;
   border: hotpink;
-  
+
 }
 
-.slideshow-container img{
+.slideshow-container img {
   height: 300px;
-  width:98%;
-  
+  width: 98%;
+
   margin-top: 1em;
   border: 2px solid steelblue;
 }
 
-#header{
-    font-weight: bolder;
-  color:white;
+#header {
+  font-weight: bolder;
+  color: white;
   font-size: 3em;
-    right:20%;
-    top:2%;
-    position: absolute;
-    
-    margin: 10px;
-    
+  right: 20%;
+  top: 2%;
+  position: absolute;
+
+  margin: 10px;
+
 }
 
 .dropbtn {
-    background-color:rgb(151, 150, 150);
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-.dropbtn:hover{
-    color:white;
+  background-color: rgb(151, 150, 150);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 
-#navigate{
-    position: sticky;
-    top: 0%;
-    z-index: 1;
-    background-color:rgb(151, 150, 150);
-    
-    
+.dropbtn:hover {
+  color: white;
+}
+
+#navigate {
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+  background-color: rgb(151, 150, 150);
+
+
 }
 
 
-li{
-    display: inline-block;
-    position: relative;
-    color: rgb(124, 124, 124);
-  }
-
-
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: blue;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {background-color: black;}
-  
-
-.menu ul li:hover ul.dropdown{
-    display: block;	/* Display the dropdown */
-    -webkit-appearance: none;
-        appearance: none;
-    
-}
-.menu ul li ul.dropdown li{
-    display: block;
+li {
+  display: inline-block;
+  position: relative;
+  color: rgb(124, 124, 124);
 }
 
-ul li{
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: blue;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+
+.menu ul li:hover ul.dropdown {
+  display: block;
+  /* Display the dropdown */
+  -webkit-appearance: none;
+  appearance: none;
+
+}
+
+.menu ul li ul.dropdown li {
+  display: block;
+}
+
+ul li {
   display: inline-block;
   position: relative;
   padding: 5%;
 }
 
-ul li img{
+ul li img {
   border-radius: 10px;
   width: 150px;
   height: 100px;
-  
-  
+
+
 }
 
 
-ul li h2{
+ul li h2 {
   color: black;
 }
-ul li button{
-  width:200px;
+
+ul li button {
+  width: 200px;
   text-align: center;
   color: orange;
   border-radius: 5px;
@@ -128,44 +137,46 @@ ul li button{
   padding: 5px;
 }
 
-ul li p{
+ul li p {
   color: blue;
 }
-.boxmodel{
-  width:200px;
+
+.boxmodel {
+  width: 200px;
   background-color: rgb(129, 129, 180);
   box-shadow: 10px 10px grey;
-  
+
 }
 
 
-.boxmodel:hover{
+.boxmodel:hover {
   width: 250px;
   height: 250px;
 }
-.headings{
+
+.headings {
   font-size: 2em;
   font-weight: bolder;
 }
 
-footer{
+footer {
   background-color: black;
   padding: 5px;
-  
+
 }
 
-footer p{
+footer p {
   text-align: right;
   color: white;
-  
+
 }
 
-button:active{
-  background:rgb(250, 234, 230);
+button:active {
+  background: rgb(250, 234, 230);
   border-color: rgb(0, 255, 76);
 }
 
-#gg{
+#gg {
   text-decoration: none;
   color: white;
 }
