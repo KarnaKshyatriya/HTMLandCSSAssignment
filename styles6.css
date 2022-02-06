@@ -1,0 +1,38 @@
+.fields  {
+    background-image: url("Lab-Test/lab-test.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    height: 100%;
+    box-shadow: 15px 8px 16px 0px rgba(14, 1, 1, 0.76);
+    
+  }
+
+ body{
+     resize: both;
+ }
+ul li{
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: gray;
+    
+  }
+  input:focus {
+    border-color: green
+  }
+
+  div p{
+      font-weight: bold;
+      font-size: 2em;
+  }
+
+  h3{
+      font-weight: bold;
+  }
+
+  

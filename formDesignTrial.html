@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles6.css">
+</head>
+<body>
+<form>
+    <div class="fields">
+        
+        <p> 1. Your Contact Details </p>
+            <ul>
+               
+                <li><input placeholder="First Name" type="text" required/>      <input placeholder="Patient's id if exists" type="text" required/></li>
+                <li><input placeholder="Conatact Number" type="text" required/>      <input placeholder="Email id" type="text" required /></li>
+            </ul>
+            <p> 2. Address </p>
+            <ul>
+               
+                <li><input placeholder="H no." type="text" />      <input placeholder="Street" type="text" /></li>
+                <li><input placeholder="Area" type="text" />       </li>
+                <li><h3>District: </h3></li>
+                <li> <select name="cars" id="cars" required>
+                    <option value="" disabled selected hidden> Choose...... </option>
+                    <option value="Alipurduar">Alipurduar</option>
+                    <option value="Bankura">Bankura</option>
+                    <option value="Birbhum">Birbhum</option>
+                    <option value="Coochbehar">Coochbehar</option>
+                    <option value="Hooghly">Hooghly</option>
+                    <option value="Howrah">Howrah</option>
+                  </select></li>
+
+            </ul>
+            <p> 3. Choose The Test Type </p>
+           
+            <ul>
+                <li>
+            <input type="checkbox" id="CBC" name="CBC" value="CBC">
+  <label for="CBC"> CBC</label>
+</li>
+<li>
+    <input type="checkbox" id="CBC" name="CBC" value="CBC">
+<label for="CBC"> Complete Urine </label>
+</li>
+<li>
+    <input type="checkbox" id="CBC" name="CBC" value="CBC">
+<label for="CBC"> Lipid Profile </label>
+</li>
+<li>
+    <input type="checkbox" id="CBC" name="CBC" value="CBC">
+<label for="CBC"> Thyroid Stimulating Hormone(TSH)
+</label>
+</li>
+
+<li>
+    <input type="checkbox" id="CBC" name="CBC" value="CBC">
+<label for="CBC"> Glucose Test
+</label>
+</li>
+
+            </ul>
+            <p> 4: Do You Want a Hard Copy of the report also ?<p>
+            <ul>
+                <li><input type="radio" id="Yes" name="HardCopy" value="Yes">
+                    <label for="Yes">Yes</label></li>
+
+                    <li><input type="radio" id="No" name="HardCopy" value="No">
+                        <label for="No">No</label></li>
+            </ul>
+            <p>5: Select Your Comfortable Date and Time</p>
+            <ul>
+           
+
+          <li> <label for="time">Select a time:</label></li>
+<li><input type="time" id="time" name="time"></li>
+           <li> <label for="date">Date:</label></li>
+
+  <li><input type="date" id="date" name="date"></li>
+
+  <li><p>     <br>  <br></p> </li>
+</ul>
+            
+
+            
+            
+    
+</div> 
+<br><br>
+<p align="center">
+    <input type="reset" value="Reset" 
+    style="background-color: rgb(176, 50, 180); 
+            color: white; font-size: large;" />
+<input type="submit" value="Submit" 
+    style="background-color: rgb(176, 50, 180); 
+            color: white; font-size: large;" onClick="check();" />
+</p>
+
+</form>
+
+<script>
+
+function check(){
+var checkboxs= document.getElementsByName("CBC");
+var okay=false;
+    for(var i=0,l=checkboxs.length;i<l;i++)
+    {
+        if(checkboxs[i].checked)
+        {
+            okay=true;
+            break;
+        }
+    }
+    if(okay){}
+    else alert("Please check a checkbox");
+
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+
+    <header>
+        <div id="header">Pharmacy</div>
+    </header>
+
+    <section id="navigate">
+        <nav>
+            <li>
+             <div class="dropdown">
+                 <button class="dropbtn">Home</button>
+                
+                 </div>
+               </div>
+               
+         </li>
+ 
+         <li>
+             <div class="dropdown">
+                 <button class="dropbtn">Our Medicines</button>
+                 <div class="dropdown-content">
+                  <a href="#">Fever</a>
+                  <a href="#">Muscle Pain</a>
+                  <a href="#">Cough and Cold</a>
+                 </div>
+               </div>
+               
+             </li>
+ 
+             <li>
+                 <div class="dropdown">
+                     <button class="dropbtn">Health Care</button>
+                     <div class="dropdown-content">
+                       <a href="#">Baby Care</a>
+                       <a href="#">Skin Care</a>
+                       <a href="#">Home Care</a>
+                       <a href="#">Personal Care</a>
+                       <a href="#">Pet Care</a>"
+                     </div>
+                   </div>
+                                   </li>
+                                   <li>
+                                    <div class="dropdown">
+                                        <button class="dropbtn"><a id="gg" href="formDesignTrial.html">Lab Test</a></button>
+                                        
+                                        </div>
+                                      </div>
+                                                      </li>
+        </nav>
+    </section> 
+    <section>
+    
+
+
+<center>
+<div class="slideshow-container">
+    <div class="mySlides">
+
+<img src="Animation/ani1.jpg" style="border:2px solid rgb(66, 59, 170)">
+
+</div>
+
+<div class="mySlides">
+
+<img src="Animation/ani2.png" style=" border:2px solid rgb(66, 59, 170)">
+
+</div>
+
+<div class="mySlides">
+
+<img src="Animation/ani3.jpg" style=" border:2px solid rgb(66, 59, 170)">
+
+</div>
+<div class="mySlides">
+
+    <img src="Animation/ani4.jpg" style=" border:2px solid rgb(66, 59, 170)">
+</div>
+<div class="mySlides">
+
+    <img src="Animation/ani5.jpg" style=" border:2px solid rgb(66, 59, 170)">
+    </div>
+    </div>
+</center>
+<script>
+
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+var i;
+var x = document.getElementsByClassName("mySlides");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none"; 
+}
+slideIndex++;
+if (slideIndex > x.length) {slideIndex = 1} 
+x[slideIndex-1].style.display = "block"; 
+setTimeout(carousel, 2000); 
+}
+</script>
+
+
+        <article>
+            <section><p class="headings"> Covid Care </p>
+            <ul>
+                <li>
+                    <div class="boxmodel">
+                        <h2>Covid Test Kit</h2>
+                        <center>
+                        <img src="Products/c1.jpg" alt="">
+                    </center>
+                        <p>Rs 40<br>Offer: Rs 30</p>
+                       <center>
+                        <button class="button1">Add To cart</button>
+                    </center>
+                    </div>
+                    </li>
+
+        <li>
+            <div class="boxmodel">
+                <h2>Covid Essentials</h2>
+                <center>
+                <img src="Products/c2.jpg" alt="">
+            </center>
+                <p>Rs 40<br>Offer: Rs 30</p>
+               <center>
+                <button class="button1">Add To cart</button>
+            </center>
+            </div></li>
+<li>
+  <div class="boxmodel">
+        <h2>Sanitizer Bottle</h2>
+        <center>
+        <img src="Products/c3.jpg" alt="">
+    </center>
+        <p>Rs 40<br>Offer: Rs 30</p>
+       <center>
+        <button class="button1">Add To cart</button>
+    </center>
+    </div>
+</li>
+<li>
+    <div class="boxmodel">
+        <h2>Mask</h2>
+        <center>
+        <img src="Products/c4.jpg" alt="">
+    </center>
+        <p>Rs 40<br>Offer: Rs 30</p>
+       <center>
+        <button class="button1">Add To cart</button>
+    </center>
+    </div>
+</ul>
+</section>
+</article>
+
+
+<article>
+    <section><p class="headings"> Diabetes Care </p>
+    <ul>
+        <li>
+            <div class="boxmodel">
+                <h2>Sanitizer Bottle</h2>
+                <center>
+                <img src="Products/d1.jpg" alt="">
+            </center>
+                <p>Rs 40<br>Offer: Rs 30</p>
+               <center>
+                <button class="button1">Add To cart</button>
+            </center>
+            </div>
+            </li>
+
+<li>
+    <div class="boxmodel">
+        <h2>Mask</h2>
+        <center>
+        <img src="Products/d2.jpg" alt="">
+    </center>
+        <p>Rs 40<br>Offer: Rs 30</p>
+       <center>
+        <button class="button1">Add To cart</button>
+    </center>
+    </div></li>
+<li>
+<div class="boxmodel">
+<h2>Mask</h2>
+<center>
+<img src="Products/d3.jpg" alt="">
+</center>
+<p>Rs 40<br>Offer: Rs 30</p>
+<center>
+<button class="button1">Add To cart</button>
+</center>
+</div>
+</li>
+<li>
+<div class="boxmodel">
+<h2>Mask</h2>
+<center>
+<img src="Products/d4.png" alt="">
+</center>
+<p>Rs 40<br>Offer: Rs 30</p>
+<center>
+<button class="button1">Add To cart</button>
+</center>
+</div>
+</ul>
+</section>
+</article>
+    
+    <footer>
+        <p>@copyright. Only for demonstration purpose</p>
+    </footer>
+    
+</body>
+</html>
